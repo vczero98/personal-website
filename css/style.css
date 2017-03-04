@@ -24,7 +24,7 @@ body a{
 	position:relative;
 }
 .menu{
-	
+
 }
 .menu ul{
 	margin: 3.2em 0 0 3em;
@@ -95,7 +95,7 @@ label.downarrow{
 	padding:4em 0;
 }
 .head-section{
-	
+
 }
 .head-section h2{
 	color:#424a51;
@@ -161,6 +161,7 @@ a.play span:hover{
 	font-family: 'Asap', sans-serif;
 }
 .service-grid span{
+	margin-top: 50px;
 	width: 65px;
 	height: 64px;
 	display: inline-block;
@@ -180,22 +181,28 @@ a.play span:hover{
 	margin: 1em auto 0 auto;
 }
 .service-grid span.s-icon{
-	background-position:4px 0px;
+	background-position:-3px 0px;
 }
 .service-grid:hover span.s-icon{
-	background-position: -209px 0px;
+	background-position: -275px 0px;
 }
 .service-grid span.s-icon1{
-	background-position:-74px 0px;
+	background-position:-71px 0px;
 }
 .service-grid:hover span.s-icon1{
-	background-position: -287px 0px;
+	background-position: -343px 0px;
 }
 .service-grid span.s-icon2{
-	background-position: -142px 0px;
+	background-position: -140px 0px;
 }
 .service-grid:hover span.s-icon2{
-	background-position: -355px 0px;
+	background-position: -411px 0px;
+}
+.service-grid span.s-icon3{
+	background-position: -207px 0px;
+}
+.service-grid:hover span.s-icon3{
+	background-position: -478px 0px;
 }
 .service-grid:hover h4{
 	color:#c59a6d;
@@ -204,7 +211,7 @@ a.play span:hover{
 	color:#424a51;
 }
 .service-grids{
-	margin:6em 0 5em 0;
+	margin:3em 0 4em 0;
 }
 /*-- shope --*/
 .shope{
@@ -400,13 +407,13 @@ a.more:hover{
 	background:url(../images/twitts-bg.jpg) no-repeat 0px 0px;
 	min-height:450px;
 	background-size:cover;
-	padding:5.5em 0 0 0; 
+	padding:5.5em 0 0 0;
 }
 .latest-twittes div.head-section h2{
 	color:#FFF;
 }
 .twitt{
-	
+
 }
 .twitt p{
 	color: #FFF;
@@ -462,7 +469,7 @@ ul.social-icons li{
 }
 ul.social-icons li a{
 	display:block;
-	margin:0 2em 0 0; 
+	margin:0 2em 0 0;
 }
 ul.social-icons li a span{
 	width:22px;
@@ -537,7 +544,7 @@ ul.social-icons li a:hover span.behance{
 	padding:0.8em 3em;
 	display:inline-block;
 	color:#FFF;
-	text-transform:uppercase;	
+	text-transform:uppercase;
 	margin-top:2em;
 	float:right;
 	transition:0.5s all;
@@ -675,7 +682,7 @@ ul.social-icons li a:hover span.behance{
 	}
 	.contact {
 		padding: 3em 0 2em 0;
-		
+
 	}
 }
 @media(max-width:640px){
@@ -716,7 +723,7 @@ ul.social-icons li a:hover span.behance{
 	}
 	.contact {
 		padding: 3em 0 2em 0;
-		
+
 	}
 	.header-info h1 {
 		font-size: 2.9em;
@@ -805,7 +812,7 @@ ul.social-icons li a:hover span.behance{
 	}
 	.contact {
 		padding: 3em 0 2em 0;
-		
+
 	}
 	.header-info h1 {
 		font-size: 2.1em;
