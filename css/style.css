@@ -295,11 +295,41 @@ a.more{
 	letter-spacing:0.1em;
 	padding:0.8em 2em;
 	text-decoration:none;
-	margin:3em 0;
+	/*margin:3em 0;*/
+	margin-top: 1em;
+	margin-bottom: 3em;
 	display:inline-block;
 }
 a.more:hover{
 	background:#282f35;
+}
+.education-block{
+	vertical-align: top;
+	min-width: 350px;
+	max-width: 380px;
+	width: auto;
+	display:inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 50px;
+}
+.education-block h3{
+	color: #424a51;
+}
+.education-block h4{
+	font-size: 10;
+	/*margin: 0 0 0 0 !important;*/
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-right: 0;
+}
+.education-block ul{
+	padding-left: 0;
+}
+.education-block li{
+	color: #8e9297;
+	list-style-type: none;
+	margin-bottom: 0.3em;
 }
 /*-- clients --*/
 .clients{
