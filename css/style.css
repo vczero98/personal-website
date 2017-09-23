@@ -335,35 +335,42 @@ a.more:hover{
 	list-style-type: none;
 	margin-bottom: 0.3em;
 }
-/*-- clients --*/
-.clients{
+/*-- quotes --*/
+.quotes{
 	background: url(../images/clients-bg.jpg) no-repeat 0px 0px;
 	min-height: 320px;
 	background-size: cover;
-	padding: 2em 0 8em 0;
+	padding: 2em 0 6em 0;
 }
-.clients div.head-section{
-	margin-top:4em;
+.quotes h1{
+	font-weight: bold;
+	color: #FFF;
+	/*margin-top: 0;
+	margin-bottom: 30px;*/
 }
-.clients div.head-section h2{
+.quotes h3{
+	line-height: 1.3;
+}
+.quotes div.head-section{
+	margin-top:3em;
+}
+.quotes div.head-section h2{
+	text-transform: none;
+	text-align: right;
+	color:#FFF;
+}
+.quotes div.head-section h3{
 	color:#FFF;
 	letter-spacing:0.05em;
 }
-.client-list{
-	margin-top:3em;
+.quotes div.head-section div{
+	margin-top: 50px;
+	height: 10px;
 }
-.client-list ul{
-	margin:0;
-	padding:0;
-}
-.client-list ul li{
-	display:inline-block;
-}
-.client-list ul li a{
-	margin:0 3em;
-}
-.client-list ul li a:hover{
-	opacity:0.8;
+.quotes div.head-section span{
+	float: right;
+	/*display: inline-block;*/
+	background:#FFF;
 }
 /*-- about-us --*/
 .about-us{
@@ -530,10 +537,10 @@ ul.social-icons li a span.vimeo{
 ul.social-icons li a:hover span.vimeo{
 	background-position: -117px -21px;
 }
-ul.social-icons li a span.behance{
+ul.social-icons li a span.github{
 	background-position: -177px 1px;
 }
-ul.social-icons li a:hover span.behance{
+ul.social-icons li a:hover span.github{
 	background-position: -177px -21px;
 }
 /*--*/
