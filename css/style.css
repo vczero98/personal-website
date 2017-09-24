@@ -238,11 +238,11 @@ a.play span:hover{
 	color:#776551;
 	border-color:#FFf;
 }
-/*-- portfolio --*/
-.portfolio{
+/*-- education --*/
+.education{
 	padding:5em 0 4em;
 }
-.portfolio p{
+.education p{
 	color: #424a51;
 	font-weight: 400;
 	font-size: 1.3em;
@@ -251,16 +251,16 @@ a.play span:hover{
 	line-height: 1.8em;
 	font-family: 'Asap', sans-serif;
 }
-.portfolio-grid{
+.education-grid{
 	position:relative;
 }
-.portfolio-grid-pic{
+.education-grid-pic{
 	position:relative;
 }
-.portfolio-grid-pic img{
+.education-grid-pic img{
 	width:100%;
 }
-.portfolio-grid-caption{
+.education-grid-caption{
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -270,22 +270,22 @@ a.play span:hover{
 	padding-top:5em;
 	display:none;
 }
-.portfolio-grid:hover div.portfolio-grid-caption{
+.education-grid:hover div.education-grid-caption{
 	display:block;
 }
-.portfolio-grid-caption h4{
+.education-grid-caption h4{
 	color:#FFF;
 	font-weight:700;
 	font-size:1.2em;
 	text-transform:uppercase;
 }
-.portfolio-grid-caption h5{
+.education-grid-caption h5{
 	color:#c59a6d;
 	font-size:2em;
 	font-family: 'Asap', sans-serif;
 	font-weight:400;
 }
-.portfolio-grid-caption span{
+.education-grid-caption span{
 	width:20%;
 	height:2px;
 	display:inline-block;
@@ -372,11 +372,11 @@ a.more:hover{
 	/*display: inline-block;*/
 	background:#FFF;
 }
-/*-- about-us --*/
-.about-us{
+/*-- portfolio --*/
+.portfolio{
 	padding:4em 0;
 }
-.about-us p {
+.portfolio p {
 	color: #424a51;
 	font-weight: 400;
 	font-size: 1.3em;
@@ -779,7 +779,7 @@ ul.social-icons li a:hover span.github{
 	.head-section span {
 		width: 12%;
 	}
-	.intro p,.portfolio p,.services p,.about-us p{
+	.intro p,.education p,.services p,.portfolio p{
 		font-size: 1.1em;
 	}
 	.video {
@@ -792,7 +792,7 @@ ul.social-icons li a:hover span.github{
 	.services {
 		padding: 2em 0;
 	}
-	.portfolio {
+	.education {
 		padding: 2.5em 0;
 	}
 	a.more {
@@ -805,7 +805,7 @@ ul.social-icons li a:hover span.github{
 	.clients div.head-section {
 		margin-top: 2em;
 	}
-	.about-us {
+	.portfolio {
 		padding: 2em 0;
 	}
 	.about-grids {
@@ -869,7 +869,7 @@ ul.social-icons li a:hover span.github{
 	.head-section span {
 		width: 15%;
 	}
-	.intro p,.portfolio p,.services p,.about-us p{
+	.intro p,.education p,.services p,.portfolio p{
 		font-size: 1em;
 		margin: 0.8em auto 1.2em;
 	}
@@ -883,7 +883,7 @@ ul.social-icons li a:hover span.github{
 	.services {
 		padding: 2em 0;
 	}
-	.portfolio {
+	.education {
 		padding: 2.5em 0;
 	}
 	a.more {
@@ -896,7 +896,7 @@ ul.social-icons li a:hover span.github{
 	.clients div.head-section {
 		margin-top: 2em;
 	}
-	.about-us {
+	.portfolio {
 		padding: 2em 0;
 	}
 	.about-grids {
@@ -984,7 +984,7 @@ ul.social-icons li a:hover span.github{
 	.head-section span {
 		width: 15%;
 	}
-	.intro p,.portfolio p,.services p,.about-us p{
+	.intro p,.education p,.services p,.portfolio p{
 		font-size: 1em;
 		margin: 0.8em auto 1.2em;
 		width:100%;
@@ -999,7 +999,7 @@ ul.social-icons li a:hover span.github{
 	.services {
 		padding: 1.5em 0;
 	}
-	.portfolio {
+	.education {
 		padding: 1.5em 0 1.2em;
 	}
 	a.more {
@@ -1012,7 +1012,7 @@ ul.social-icons li a:hover span.github{
 	.clients div.head-section {
 		margin-top: 1.5em;
 	}
-	.about-us {
+	.portfolio {
 		padding: 1.5em 0;
 	}
 	.about-grids {
