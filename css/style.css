@@ -376,7 +376,7 @@ a.more:hover{
 .portfolio{
 	padding:4em 0;
 }
-.portfolio p {
+.portfolio-head {
 	color: #424a51;
 	font-weight: 400;
 	font-size: 1.3em;
@@ -384,6 +384,36 @@ a.more:hover{
 	margin: 1em auto 2em auto;
 	line-height: 1.8em;
 	font-family: 'Asap', sans-serif;
+}
+.portfolio-block{
+	/*border: 2px solid #1e2429;*/
+	padding: 0;
+	overflow: auto;
+	/*background: blue;*/
+}
+.portfolio-block p{
+	padding-right: 50px;
+}
+.portfolio-block img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 22px;
+}
+.portfolio-text{
+	text-align: justify;
+	/*background: red;*/
+	margin: 0;
+}
+.portfolio-links{
+	text-align: right;
+	width: 100%;
+	/*background-color: green;*/
+	font-size: 25px;
+	letter-spacing: 2px;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
 }
 .about-grid{
 	position:relative;
