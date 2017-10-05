@@ -389,31 +389,86 @@ a.more:hover{
 	/*border: 2px solid #1e2429;*/
 	padding: 0;
 	overflow: auto;
+	position:relative;
+	margin: 35px 75px;
 	/*background: blue;*/
+	text-align: left;
+	display: flex;
 }
-.portfolio-block p{
-	padding-right: 50px;
+.portfolio-content{
+	display: inline-block;
+	text-align: left;
+	/* 	float: left; */
+}
+.portfolio-block h2{
+	display: inline-block;
+	margin-top: 0;
+	font-size: 19px;
 }
 .portfolio-block img{
 	width: 150px;
 	height: 150px;
 	float: left;
 	margin-right: 22px;
+	display: inline-block;
 }
 .portfolio-text{
 	text-align: justify;
-	/*background: red;*/
+	font-size: 12px;
 	margin: 0;
+	padding-bottom: 40px
+}
+.portfolio-skills{
+	text-align: left;
+	/* margin-left: 222px; */
+	display: inline;
+	margin-bottom: 0;
+	padding-bottom: 2px;
+
+}
+.portfolio-skills span{
+	font-size: 13px;
+	background: lightgray;
+	padding: 5px 7px;
+	border-radius: 4px;
+	margin-right: 4px;
+}
+.portfolio-skills{
+	text-align: left;
+	/* margin-left: 222px; */
+	display: inline;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
 }
 .portfolio-links{
 	text-align: right;
-	width: 100%;
+	width: auto;
 	/*background-color: green;*/
 	font-size: 25px;
 	letter-spacing: 2px;
 	margin: 0;
+	display: inline;
+	float: right;
 	position: absolute;
-	bottom: 0;
+	right:0;
+	bottom:0;
+}
+.portfolio-links span{
+	font-size: 15px;
+	letter-spacing: 0;
+	color: #8e9297;
+	opacity: 0;
+	transition: 0.2s linear;
+	margin-right: 10px;
+}
+.portfolio-block a:hover{
+	color: #c59a6d;
+	transition: 0.2s linear;
+}
+.portfolio-links a{
+	color: #333;
+
 }
 .about-grid{
 	position:relative;
@@ -509,9 +564,13 @@ a.more:hover{
 .contact{
 	background:#282f35;
 	padding:5em 0;
+	text-align: center;
 }
 .contact div.head-section h2{
 	color:#FFF;
+}
+.contact-left{
+	width: 100%;
 }
 .contact-left h4{
 	color:#FFF;
@@ -541,7 +600,7 @@ ul.social-icons li{
 }
 ul.social-icons li a{
 	display:block;
-	margin:0 2em 0 0;
+	margin: 0 0.5em 0 0.5em;
 }
 ul.social-icons li a span{
 	width:22px;
@@ -633,6 +692,7 @@ ul.social-icons li a:hover span.github{
 }
 .contact-grids{
 	margin:4em 0 1em;
+	text-align: center;
 }
 /*-- footer --*/
 .footer{
@@ -837,6 +897,9 @@ ul.social-icons li a:hover span.github{
 	}
 	.portfolio {
 		padding: 2em 0;
+	}
+	.portfolio-text {
+		font-size: 12px !important;
 	}
 	.about-grids {
 		margin: 0em 0 2em 0;
