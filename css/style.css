@@ -398,7 +398,7 @@ a.more:hover{
 .portfolio-content{
 	display: inline-block;
 	text-align: left;
-	/* 	float: left; */
+	/* float: left; */
 }
 .portfolio-block h2{
 	display: inline-block;
@@ -408,23 +408,22 @@ a.more:hover{
 .portfolio-block img{
 	width: 150px;
 	height: 150px;
-	float: left;
 	margin-right: 22px;
-	display: inline-block;
 }
 .portfolio-text{
 	text-align: justify;
 	font-size: 12px;
 	margin: 0;
-	padding-bottom: 40px
+	/* padding-bottom: 40px */
+}
+.portfolio-bottom{
+	margin-top: 12px;
 }
 .portfolio-skills{
 	text-align: left;
 	/* margin-left: 222px; */
-	display: inline;
 	margin-bottom: 0;
 	padding-bottom: 2px;
-
 }
 .portfolio-skills span{
 	font-size: 13px;
@@ -432,27 +431,33 @@ a.more:hover{
 	padding: 5px 7px;
 	border-radius: 4px;
 	margin-right: 4px;
+	display: inline-block;
+	transition: 1s;
+	cursor: default;
+	white-space: nowrap;
+	margin-bottom: 8px;
+}
+.portfolio-skills span:hover{
+	color: darkblue;
+	background: #b7c8e2;
 }
 .portfolio-skills{
 	text-align: left;
 	/* margin-left: 222px; */
 	display: inline;
 	margin-bottom: 0;
-	position: absolute;
+	/* position: absolute; */
 	bottom: 0;
 }
 .portfolio-links{
 	text-align: right;
 	width: auto;
-	/*background-color: green;*/
+/* 	background-color: green; */
 	font-size: 25px;
 	letter-spacing: 2px;
 	margin: 0;
 	display: inline;
 	float: right;
-	position: absolute;
-	right:0;
-	bottom:0;
 }
 .portfolio-links span{
 	font-size: 15px;
@@ -908,6 +913,49 @@ ul.social-icons li a:hover span.github{
 		min-height: 370px;
 		padding: 2.5em 0 0 0;
 	}
+	.portfolio-block{
+		text-align: center;
+		display: block;
+	}
+	.portfolio-block h2{
+		font-size: 21px;
+	}
+	.portfolio-block img{
+		width: 250px;
+		height: 250px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 25px;
+	}
+	.portfolio-content{
+		text-align: center;
+	}
+	.portfolio-text{
+		font-size: 14px !important;
+	}
+	.portfolio-bottom{
+		margin-top: 15px;
+	}
+	.portfolio-skills{
+		display: block;
+		text-align: center;
+	}
+	.portfolio-skills span{
+		font-size: 12px;
+		float: none;
+	}
+	.portfolio-links{
+		display: block;
+		float: none;
+		text-align: center;
+		margin-top: 8px;
+		line-height: 0px;
+	}
+	.portfolio-links i{
+		font-size: 30px;
+		float: none;
+	}
 }
 @media(max-width:480px){
 	.header-info {
@@ -1023,6 +1071,14 @@ ul.social-icons li a:hover span.github{
 	#small-dialog iframe{
 		min-height:200px;
 		border:none;
+	}
+	.portfolio-block img{
+		height: 200px;
+		width: 200px;
+	}
+	.portfolio-block{
+		margin-left:20px;
+		margin-right: 20px;
 	}
 }
 @media(max-width:320px){
@@ -1166,5 +1222,12 @@ ul.social-icons li a:hover span.github{
 		float: none;
 		text-align:center;
 		margin-top:1em;
+	}
+	.portfolio-block img{
+		width: 150px;
+		height: 150px;
+	}
+	.portfolio-block h2{
+		font-size: 16px;
 	}
 }
