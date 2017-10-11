@@ -372,6 +372,13 @@ a.more:hover{
 	/*display: inline-block;*/
 	background:#FFF;
 }
+/*-- skills --*/
+.skillProgressBar {
+  margin: 20px auto;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
 /*-- portfolio --*/
 .portfolio{
 	padding:4em 0;
