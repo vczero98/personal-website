@@ -165,6 +165,9 @@ a.play span:hover{
 	line-height: 1.8em;
 	font-family: 'Asap', sans-serif;
 }
+.service-grid{
+	padding-bottom: 25px;
+}
 .service-grid span{
 	margin-top: 50px;
 	width: 65px;
@@ -184,6 +187,15 @@ a.play span:hover{
 	font-size: 1em;
 	width: 90%;
 	margin: 1em auto 0 auto;
+}
+.service-grid:hover path:nth-of-type(1){
+	stroke: #f4e8dc;
+}
+.service-grid:hover path:nth-of-type(2){
+	stroke: #c59a6d;
+}
+.service-grid:hover .progressbar-text{
+	color: #c59a6d !important;
 }
 .service-grid span.s-icon{
 	background-position:-3px 0px;

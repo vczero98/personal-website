@@ -30,7 +30,7 @@ for (var i = 0; i < nBars; i++) {
 	  // Set default step function for all animate calls
 	  step: function(state, circle) {
 	    circle.path.setAttribute('stroke', state.color);
-	    circle.path.setAttribute('stroke-width', state.width);
+	    // circle.path.setAttribute('stroke-width', state.width);
 
 	    var value = (Math.round(circle.value() * 100) + "%");
 	    if (value === 0) {
@@ -47,11 +47,6 @@ for (var i = 0; i < nBars; i++) {
 	bars[i].text.style.fontWeight= "bold";
 	bars[i].text.style.fontSize = '1.5rem';
 }
-
-// bars[0].animate(0.8);  // Number from 0.0 to 1.0
-// bars[1].animate(0.7);
-// bars[2].animate(0.6);
-// bars[3].animate(0.4);
 
 $(document).bind('scroll', function(ev) {
     var scrollOffset = $(document).scrollTop();
