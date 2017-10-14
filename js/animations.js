@@ -12,7 +12,7 @@ $(".portfolio-block i").hover(function(){
 
 // Skills progressbars
 var bars = [];
-var nBars = 4;
+var nBars = 6;
 for (var i = 0; i < nBars; i++) {
 	bars[i] = new ProgressBar.Circle(("#skillBar" + i), {
 	  color: '#aaa',
@@ -52,10 +52,13 @@ $(document).bind('scroll', function(ev) {
     var scrollOffset = $(document).scrollTop();
     var containerOffset = $('#skillBar0').offset().top - window.innerHeight;
     if (scrollOffset > containerOffset) {
-			bars[0].animate(0.8);  // Number from 0.0 to 1.0
-			bars[1].animate(0.7);
-			bars[2].animate(0.6);
-			bars[3].animate(0.4);
+			// Number from 0.0 to 1.0
+			bars[0].animate(0.8); // Java
+			bars[1].animate(0.7); // Python
+			bars[2].animate(0.6); // SQL
+			bars[3].animate(0.4); // VB
+			bars[4].animate(0.7); // HTML CSS
+			bars[5].animate(0.7); // JavaScript
        // unbind event
         $(document).unbind('scroll');
     }
