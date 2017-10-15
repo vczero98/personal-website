@@ -852,6 +852,11 @@ ul.social-icons li a:hover span.github{
 
 	}
 }
+@media(max-width:991px){
+	.service-grid {
+		height: auto;
+	}
+}
 @media(max-width:640px){
 	.header-info {
 		width: 72%;
