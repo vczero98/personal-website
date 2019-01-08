@@ -23,6 +23,7 @@ body a{
 	min-height:750px;
 	position:relative;
 }
+.modal {text-align: left}
 .menu{
 
 }
@@ -415,95 +416,62 @@ a.more:hover{
 	line-height: 1.8em;
 	font-family: 'Asap', sans-serif;
 }
-.portfolio-block{
-	/*border: 2px solid #1e2429;*/
-	padding: 0;
-	overflow: auto;
-	position:relative;
-	margin: 35px 75px;
-	/*background: blue;*/
-	text-align: left;
-	display: flex;
+.portfolio-item {
+	padding-bottom: 25px;
+	position: relative;
+	cursor: pointer;
 }
-.portfolio-content{
-	display: inline-block;
-	text-align: left;
-	/* float: left; */
+.portfolio-item img {
+	width: 100%;
 }
-.portfolio-block h2{
-	display: inline-block;
-	margin-top: 0;
-	font-size: 19px;
-}
-.portfolio-block img{
-	width: 150px;
-	height: 150px;
-	margin-right: 22px;
-}
-.portfolio-text{
-	text-align: justify;
-	font-size: 12px;
-	margin: 0;
-	/* padding-bottom: 40px */
-}
-.portfolio-bottom{
-	margin-top: 12px;
-}
-.portfolio-skills{
-	text-align: left;
-	/* margin-left: 222px; */
-	margin-bottom: 0;
-	padding-bottom: 2px;
-}
-.portfolio-skills span{
-	font-size: 13px;
-	background: lightgray;
-	padding: 5px 7px;
-	border-radius: 4px;
-	margin-right: 4px;
-	display: inline-block;
-	transition: 1s;
-	cursor: default;
-	white-space: nowrap;
-	margin-bottom: 8px;
-}
-.portfolio-skills span:hover{
-	color: darkblue;
-	background: #b7c8e2;
-}
-.portfolio-skills{
-	text-align: left;
-	/* margin-left: 222px; */
-	display: inline;
-	margin-bottom: 0;
-	/* position: absolute; */
+.portfolio-item .hover-link {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	padding-bottom: 25px;
 	bottom: 0;
-}
-.portfolio-links{
-	text-align: right;
-	width: auto;
-/* 	background-color: green; */
-	font-size: 25px;
-	letter-spacing: 2px;
-	margin: 0;
-	display: inline;
-	float: right;
-}
-.portfolio-links span{
-	font-size: 15px;
-	letter-spacing: 0;
-	color: #8e9297;
 	opacity: 0;
-	transition: 0.2s linear;
-	margin-right: 10px;
+	transition: 0.5s;
 }
-.portfolio-block a:hover{
-	color: #c59a6d;
-	transition: 0.2s linear;
+.portfolio-item:hover .hover-link {
+	opacity: 1;
 }
-.portfolio-links a{
-	color: #333;
-
+.portfolio-item .hover-link i {
+	background-color: rgba(40, 47, 53, 0.9);
+	padding-top: 25%;
+	color: white;
+	font-size: 5rem;
+	height: 100%;
+	width: 100%;
+}
+.portfolio-item .title {
+	position: absolute;
+	bottom: 25px;
+	padding: 20px 0 5px 0;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7), rgba(0,0,0,0.7))
+}
+.portfolio-item .title h2 {
+	font-size: 1.5rem;
+	color: white;
+}
+.portfolio-skill {
+	background: lightgrey;
+	padding:  3px 7px;
+	border-radius: 5px;
+}
+.portfolio-skill:not(:last-child) {
+	margin-right: 2px;
+}
+.carousel .item {
+	background: #282f34;
+	height: 400px !important;
+}
+.carousel img {
+	height: 100% !important;
+	width: auto !important;
+	margin: auto;
 }
 .about-grid{
 	position:relative;

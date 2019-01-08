@@ -3,12 +3,17 @@
 	<head>
 		<title>Vilmos Czeroczky</title>
 		<link rel="shortcut icon" href="images/favicon.ico"/>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- jQuery -->
 		<script src="js/jquery.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		 <!-- Custom Theme files -->
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- font awesome icons -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+		 <!-- font awesome icons -->
    		 <!-- Custom Theme files -->
    		  <!---- start-smoth-scrolling---->
 		<script type="text/javascript" src="js/move-top.js"></script>
@@ -183,39 +188,410 @@
 					</div>
 					<!-- /head-section -->
 					<p class="portfolio-head">To gain experience, I have worked on several projects:</p>
-					<div class="portfolio-block">
-						<img src="images/lego_nxt.jpg">
-						<div class="portfolio-content">
-							<h2>Lego NXT Virtual Warehouse</h2>
-							<p class="portfolio-text">During my first year of university, I have worked on a team project of simulating a smart warehouse that automatically picks up items that have been ordered and delivers them to packaging. We have used three Lego NXT robots to simulate the project. I have coded the robot interface, and the job cancellation prediction, for which I have used machine learning.</p>
-							<div class="portfolio-bottom">
-								<p class="portfolio-skills">
-									<span>Java</span>
-									<span>Teamwork</span>
-									<span>Artificial Intelligence</span>
-								</p>
-								<p class="portfolio-links">
-									<span></span>
-								</p>
+					<div class="row">
+
+
+						<!-- Minesweeper Infinity Button -->
+						<div class="col-md-6 col-lg-4">
+							<a data-toggle="modal" data-target="#minesweeperInfinityModal">
+								<div class="portfolio-item">
+									<img src="images/portfolio/minfinity/logo.png" alt="">
+									<div class="title">
+										<h2>Minesweeper Infinity Multiplayer Game</h2>
+									</div>
+									<div class="hover-link">
+										<i class="fas fa-search-plus"></i>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!-- SplitTale Button -->
+						<div class="col-md-6 col-lg-4">
+							<a data-toggle="modal" data-target="#splitTaleModal">
+								<div class="portfolio-item">
+									<img src="images/portfolio/splittale/logo.jpg" alt="">
+									<div class="title">
+										<h2>SplitTale Game</h2>
+									</div>
+									<div class="hover-link">
+										<i class="fas fa-search-plus"></i>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!-- OrigArmy Button -->
+						<div class="col-md-6 col-lg-4">
+							<a data-toggle="modal" data-target="#origArmyModal">
+								<div class="portfolio-item">
+									<img src="images/portfolio/origarmy/logo.jpg" alt="">
+									<div class="title">
+										<h2>Origarmy Game<br>(Group Project)</h2>
+									</div>
+									<div class="hover-link">
+										<i class="fas fa-search-plus"></i>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!--  Lego NXT Button-->
+						<div class="col-md-6 col-lg-4">
+							<a data-toggle="modal" data-target="#legoNXTModal">
+								<div class="portfolio-item">
+									<img src="images/portfolio/lego/lego.jpg" alt="">
+									<div class="title">
+										<h2>Lego NXT Virtual Warehouse</h2>
+									</div>
+									<div class="hover-link">
+										<i class="fas fa-search-plus"></i>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!--  Simple Minesweeper Button -->
+						<div class="col-md-6 col-lg-4">
+							<a data-toggle="modal" data-target="#simpleMinesweeperModal">
+								<div class="portfolio-item">
+									<img src="images/portfolio/minesweeper/minesweeper.jpg" alt="">
+									<div class="title">
+										<h2>Simple JS Minesweeper</h2>
+									</div>
+									<div class="hover-link">
+										<i class="fas fa-search-plus"></i>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!--  SplitTale Modal -->
+						<div class="modal fade" id="splitTaleModal" tabindex="-1" role="dialog" aria-labelledby="splitTaleModalLabel">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="splitTaleModalLabel">SplitTale story writing game</h4>
+									</div>
+									<div class="modal-body">
+										<div id="splittale-carousel" class="carousel slide" data-ride="carousel">
+											<!-- Indicators -->
+											<ol class="carousel-indicators">
+												<li data-target="#splittale-carousel" data-slide-to="0" class="active"></li>
+												<li data-target="#splittale-carousel" data-slide-to="1"></li>
+												<li data-target="#splittale-carousel" data-slide-to="2"></li>
+												<li data-target="#splittale-carousel" data-slide-to="3"></li>
+											</ol>
+
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<img src="images/portfolio/splittale/scrn1.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/splittale/scrn2.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/splittale/scrn3.png" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/splittale/scrn4.jpg" alt="...">
+												</div>
+											</div>
+
+											<!-- Controls -->
+											<a class="left carousel-control" href="#splittale-carousel" role="button" data-slide="prev">
+												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="right carousel-control" href="#splittale-carousel" role="button" data-slide="next">
+												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+										<h3>The Project</h3>
+										<p>SplitTale is another one of my personal projects, solely developed by me. The website is a game, where players can write stories together using, at each turn being able to add up to 5 words to the story. The game uses Facebook for logging in. Users can start their own stories. Check it out at www.splittale.com!</p>
+										<h3>Development</h3>
+										<p>To further practise my Node.js skill I have taught myself, I decided to work on another web application developed with Node.js using the Express framework. To handle the Facebook login, I have used Passport. The front-end is developed using jQuery.</p>
+										<h3>Skills developed</h3>
+										<p>
+											<span class="portfolio-skill">Node.js</span>
+											<span class="portfolio-skill">Facebook Development</span>
+											<span class="portfolio-skill">HTML</span>
+											<span class="portfolio-skill">CSS</span>
+											<span class="portfolio-skill">JavaScript</span>
+											<span class="portfolio-skill">Mongoose</span>
+											<span class="portfolio-skill">Git</span>
+										</p>
+									</div>
+									<div class="modal-footer">
+										<a href="https://splittale.com" target="_blank" type="button" class="btn btn-default"><i class="fas fa-globe-americas"></i> Try the game</a>
+										<a href="https://github.com/vczero98/splittale" target="_blank" type="button" class="btn btn-default"><i class="fab fa-github"></i> Check the code on GitHub</a>
+										<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="portfolio-block">
-						<img src="images/minesweeper.jpg">
-						<div class="portfolio-content">
-							<h2><a href="https://vczero98.github.io/minesweeper/">JavaScript Minesweeper</a></h2>
-							<p class="portfolio-text">To challange and improve upon my knowledge of JavaScript, I have coded a minsweeper game. The game is still gradually being improved with more features I am currently working on, such as displays for the timer, and middle click to open the neighbouring blocks.</p>
-							<div class="portfolio-bottom">
-								<p class="portfolio-skills">
-									<span>JavaScript</span>
-									<span>HTML</span>
-									<span>CSS</span>
-								</p>
-								<p class="portfolio-links">
-									<span></span>
-									<a href="https://vczero98.github.io/minesweeper/" target="_blank"><i title="Play with me!" class="link1 fa fa-globe" aria-hidden="true"></i></a>
-									<a href="https://github.com/vczero98/minesweeper" target="_blank"><i title="Check my code on git!" class="link2 fa fa-github" aria-hidden="true"></i></a>
-								</p>
+
+						<!--  Origarmy Modal -->
+						<div class="modal fade" id="origArmyModal" tabindex="-1" role="dialog" aria-labelledby="origArmyModalLabel">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="origArmyModalLabel">OrigArmy Game (university group project)</h4>
+									</div>
+									<div class="modal-body">
+										<div id="origarmy-carousel" class="carousel slide" data-ride="carousel">
+											<!-- Indicators -->
+											<ol class="carousel-indicators">
+												<li data-target="#origarmy-carousel" data-slide-to="0" class="active"></li>
+												<li data-target="#origarmy-carousel" data-slide-to="1"></li>
+												<li data-target="#origarmy-carousel" data-slide-to="2"></li>
+												<li data-target="#origarmy-carousel" data-slide-to="3"></li>
+												<li data-target="#origarmy-carousel" data-slide-to="4"></li>
+											</ol>
+
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<img src="images/portfolio/origarmy/scrn1.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/origarmy/scrn2.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/origarmy/scrn3.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/origarmy/scrn4.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/origarmy/scrn5.png" alt="...">
+												</div>
+											</div>
+
+											<!-- Controls -->
+											<a class="left carousel-control" href="#origarmy-carousel" role="button" data-slide="prev">
+												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="right carousel-control" href="#origarmy-carousel" role="button" data-slide="next">
+												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+										<h3>The Project</h3>
+										<p>Origarmy is a group project we have developed at university with 5 other students. It is a multiplayer, turn-based tactical game that can be played either on a LAN or a central server online. The game can be played with up to 9 players, each player having different types of units, the the objective of capturing the other players' bases.</p>
+										<h3>Development</h3>
+										<p>The whole project was developed using Java with LWJGL for the graphics. My main area of work was on Game Logic and Networking, using sockets to communicate between the clients. In each game, one of the players acted as the server, and the rest of the players as the client connecting to the server.</p>
+										<h3>Skills developed</h3>
+										<p>
+											<span class="portfolio-skill">Java</span>
+											<span class="portfolio-skill">LWJGL</span>
+											<span class="portfolio-skill">Networking</span>
+											<span class="portfolio-skill">Sockets</span>
+											<span class="portfolio-skill">Jenkins</span>
+											<span class="portfolio-skill">Git</span>
+										</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--  Minesweeper Infinity Modal -->
+						<div class="modal fade" id="minesweeperInfinityModal" tabindex="-1" role="dialog" aria-labelledby="minesweeperInfinityModalLabel">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="minesweeperInfinityModalLabel">Minesweeper Infinity Multiplayer Game</h4>
+									</div>
+									<div class="modal-body">
+										<div id="minfinity-carousel" class="carousel slide" data-ride="carousel">
+											<!-- Indicators -->
+											<ol class="carousel-indicators">
+												<li data-target="#minfinity-carousel" data-slide-to="0" class="active"></li>
+												<li data-target="#minfinity-carousel" data-slide-to="1"></li>
+												<li data-target="#minfinity-carousel" data-slide-to="2"></li>
+												<li data-target="#minfinity-carousel" data-slide-to="3"></li>
+											</ol>
+
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<img src="images/portfolio/minfinity/scrn1.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/minfinity/scrn2.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/minfinity/scrn3.png" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/minfinity/scrn4.jpg" alt="...">
+												</div>
+											</div>
+
+											<!-- Controls -->
+											<a class="left carousel-control" href="#minfinity-carousel" role="button" data-slide="prev">
+												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="right carousel-control" href="#minfinity-carousel" role="button" data-slide="next">
+												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+										<h3>The Project</h3>
+										<p>Minesweeper Infinity is one of my personal projects. The idea behind this game is to take Minesweeper to a whole new level. The minefield used in the game is infinite (the player can navigate around with WASD), and it is played multiplayer with 2-4 players. The game features a login and guest system, creation of battles, an in-game chat system and a hall of fame. The game is currently under development.</p>
+										<h3>Development</h3>
+										<p>I have developed the backend using Node.js and I use MongoDB as the database. The frontend, including the game is developed in JavaScript. The game uses the HTML Canvas element.</p>
+										<h3>Skills developed</h3>
+										<p><span class="portfolio-skill">Node.js</span> <span class="portfolio-skill">MongoDB</span> <span class="portfolio-skill">Mongoose</span> <span class="portfolio-skill">JavaScript</span> <span class="portfolio-skill">HTML</span> <span class="portfolio-skill">CSS</span> <span class="portfolio-skill">Git</span></p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--  Lego NXT Modal -->
+						<div class="modal fade" id="legoNXTModal" tabindex="-1" role="dialog" aria-labelledby="legoNXTModalLabel">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="legoNXTModalLabel">Lego NXT Virtual Warehouse</h4>
+									</div>
+									<div class="modal-body">
+										<div id="lego-carousel" class="carousel slide" data-ride="carousel">
+											<!-- Indicators -->
+											<ol class="carousel-indicators">
+												<li data-target="#lego-carousel" data-slide-to="0" class="active"></li>
+												<li data-target="#lego-carousel" data-slide-to="1"></li>
+												<li data-target="#lego-carousel" data-slide-to="2"></li>
+											</ol>
+
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<img src="images/portfolio/lego/IMG_4797.JPG" alt="...">
+													<!-- <div class="carousel-caption">
+														Image one
+													</div> -->
+												</div>
+												<div class="item">
+													<img src="images/portfolio/lego/IMG_4802.JPG" alt="...">
+													<!-- <div class="carousel-caption">
+														Image two
+													</div> -->
+												</div>
+												<div class="item">
+													<img src="images/portfolio/lego/IMG_7089.JPG" alt="...">
+													<!-- <div class="carousel-caption">
+														Image three
+													</div> -->
+												</div>
+											</div>
+
+											<!-- Controls -->
+											<a class="left carousel-control" href="#lego-carousel" role="button" data-slide="prev">
+												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="right carousel-control" href="#lego-carousel" role="button" data-slide="next">
+												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+										<h3>The Project</h3>
+										<p>This was a first year group project at university I developed with 6 others. The task was a simulate an automated warehouse, where three robots simultaneously picked up virtual objects when a job was received. The robots communicated with the server using bluetooth. The robots used sensors we programmed to navigate themselves. Some of the jobs would be cancelled. Such jobs could be predicted as we had been given a list of previous jobs along with whether they were cancelled.</p>
+										<h3>Development</h3>
+										<p>We developed the project in Java. My job was to program the interface of the robots, and the job cancellation prediction. For this, I have used the Java library Weka.</p>
+										<h3>Skills developed</h3>
+										<p>
+											<span class="portfolio-skill">Java</span>
+											<span class="portfolio-skill">Weka</span>
+											<span class="portfolio-skill">Machine Learning</span>
+											<span class="portfolio-skill">Teamwork</span>
+										</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--  Simple Minesweeper Modal-->
+						<div class="modal fade" id="simpleMinesweeperModal" tabindex="-1" role="dialog" aria-labelledby="simpleMinesweeperModalLabel">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="simpleMinesweeperModalLabel">Simple Minesweeper JavaScript Game</h4>
+									</div>
+									<div class="modal-body">
+										<div id="simple-minesweeper-carousel" class="carousel slide" data-ride="carousel">
+											<!-- Indicators -->
+											<ol class="carousel-indicators">
+												<li data-target="#simple-minesweeper-carousel" data-slide-to="0" class="active"></li>
+												<li data-target="#simple-minesweeper-carousel" data-slide-to="1"></li>
+												<li data-target="#simple-minesweeper-carousel" data-slide-to="2"></li>
+												<li data-target="#simple-minesweeper-carousel" data-slide-to="3"></li>
+											</ol>
+
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<img src="images/portfolio/minesweeper/minesweeper.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/minesweeper/scrn2.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/minesweeper/scrn1.jpg" alt="...">
+												</div>
+												<div class="item">
+													<img src="images/portfolio/minesweeper/scrn3.jpg" alt="...">
+												</div>
+											</div>
+
+											<!-- Controls -->
+											<a class="left carousel-control" href="#simple-minesweeper-carousel" role="button" data-slide="prev">
+												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="right carousel-control" href="#simple-minesweeper-carousel" role="button" data-slide="next">
+												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+										<h3>The Project</h3>
+										<p>A simple minesweeper game I developed to practise my JavaScript.</p>
+										<h3>Development</h3>
+										<p>The game has no back-end. It is built with HTML, CSS and JavaScript. I have created the design of the game using Photoshop.</p>
+										<h3>Skills developed</h3>
+										<p>
+											<span class="portfolio-skill">HTML</span>
+											<span class="portfolio-skill">CSS</span>
+											<span class="portfolio-skill">JavaScript</span>
+											<span class="portfolio-skill">JavaScript canvas</span>
+											<span class="portfolio-skill">Photoshop</span>
+										</p>
+									</div>
+									<div class="modal-footer">
+										<a href="https://vczero98.github.io/minesweeper/" target="_blank" type="button" class="btn btn-default"><i class="fas fa-globe-americas"></i> Try the game</a>
+										<a href="https://github.com/vczero98/minesweeper" target="_blank" type="button" class="btn btn-default"><i class="fab fa-github"></i> Check the code on GitHub</a>
+										<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
