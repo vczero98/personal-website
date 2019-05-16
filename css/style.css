@@ -605,35 +605,12 @@ ul.social-icons li a{
 	display:block;
 	margin: 0 0.5em 0 0.5em;
 }
-ul.social-icons li a span{
-	width:22px;
-	height:22px;
-	display:inline-block;
-	background:url(../images/social-icons.png) no-repeat 0px 0px;
+.social-icons li a {
+	color: #FFF;
+	font-size: 2rem;
 }
-ul.social-icons li a span.facebook{
-	background-position: 4px 0px;
-}
-ul.social-icons li a:hover span.facebook{
-	background-position: 4px -22px;
-}
-ul.social-icons li a span.twitter{
-	background-position: -54px 2px;
-}
-ul.social-icons li a:hover span.twitter{
-	background-position: -54px -20px;
-}
-ul.social-icons li a span.vimeo{
-	background-position: -117px 1px;
-}
-ul.social-icons li a:hover span.vimeo{
-	background-position: -117px -21px;
-}
-ul.social-icons li a span.github{
-	background-position: -177px 1px;
-}
-ul.social-icons li a:hover span.github{
-	background-position: -177px -21px;
+.social-icons li a:hover {
+	color: #9e7a56;
 }
 /*--*/
 .text-box input[type="text"],.subject-box textarea{
