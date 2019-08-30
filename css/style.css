@@ -397,6 +397,9 @@ a.more:hover{
 	background:#FFF;
 }
 /*-- skills --*/
+.skills-list{
+	line-height: 30px;
+}
 .skillProgressBar {
   margin: 20px auto;
   width: 80px;
@@ -463,6 +466,10 @@ a.more:hover{
 }
 .portfolio-skill:not(:last-child) {
 	margin-right: 2px;
+}
+.portfolio-video {
+	width: 100%;
+	text-align: center;
 }
 .carousel .item {
 	background: #282f34;

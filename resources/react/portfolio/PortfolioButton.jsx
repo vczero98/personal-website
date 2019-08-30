@@ -8,7 +8,7 @@ class PortifolioButton extends React.Component {
 					<div className="portfolio-item">
 						<img src={this.props.image} alt="" />
 						<div className="title">
-							<h2>{this.props.name}</h2>
+							<h2 dangerouslySetInnerHTML={{__html: this.props.name}} />
 						</div>
 						<div className="hover-link">
 							<i className="fas fa-search-plus"></i>

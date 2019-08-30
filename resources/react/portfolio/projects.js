@@ -1,5 +1,45 @@
 export default [
 	{
+		name: 'IoT Smart Horse Vest',
+		coverImage: 'images/portfolio/horse/cover.png',
+		title: 'IoT Smart Horse Vest (University Group Project)',
+		images: [
+			'images/portfolio/horse/scrn1.png',
+			'images/portfolio/horse/scrn2.png',
+			'images/portfolio/horse/scrn3.png',
+			'images/portfolio/horse/scrn4.png',
+			'images/portfolio/horse/scrn5.png',
+			'images/portfolio/horse/scrn6.png',
+			'images/portfolio/horse/scrn7.png',
+			'images/portfolio/horse/scrn8.png'
+		],
+		sections: [
+			{
+				title: 'The Project',
+				text: 'The task for this university group project was to design and build an IoT solution for an existing problem of out choice. This project focused mostly on design process, and began this by researching a product that could benefit from IoT. We came up with the idea of having the smart horse jacket that helps you improve your body posture during horse riding. From our research, we found that the head, back and feet are the areas that most beginners struggle with, so we designed accessories to complement the jacket worn by the user to analyse each of these areas. We developed a phone app that would be an accessory to the jacket, and could be used to monitor the user\'s progress.',
+				video: 'https://www.youtube.com/embed/eqBDRam76ZY'
+			},
+			{
+				title: 'Development',
+				text: 'The project in terms of development consisted of two main parts. To record and analyse the movement of the body, we used an Arduino along with two MPU6050 sensors, which include an accelerometer and a gyroscope. We built this into the jacket to monitor the orientation of the body. The other main part was developing an Android application, which we did using Android Studio and Java. The application communicates with the Arduino using a TCP-IP socket, and alertes the user when their body position is incorrect using the device\'s speakers.',
+			},
+			{
+				title: 'Video',
+				text: 'Part of the design process was to create a video that showcases and advertises the product we created. This is in the style of a video that is startup would use to crowdfund their idea. Although I was not the one using the software to edit the video itself, I have contributed several ideas. This video shows how our product is intended to work.',
+				video: 'https://www.youtube.com/embed/9gjPEeC-LDY'
+			}
+		],
+		skills: [
+			'Team Management',
+			'Internet of Things',
+			'Arduino',
+			'Android Studio',
+			'Mobile Development',
+			'Gyroscope',
+			'Accelorometer'
+		]
+	},
+	{
 		name: 'Minesweeper Infinity Multiplayer Game',
 		coverImage: 'images/portfolio/minfinity/logo.png',
 		title: 'Minesweeper Infinity Multiplayer Game',
@@ -8,7 +48,7 @@ export default [
 			'images/portfolio/minfinity/scrn2.jpg',
 			'images/portfolio/minfinity/scrn3.png',
 			'images/portfolio/minfinity/scrn4.jpg'
-		],
+		  ],
 		sections: [
 			{
 				title: 'The Project',
@@ -74,7 +114,7 @@ export default [
 	{
 		name: 'Origarmy Game<br>(Group Project)',
 		coverImage: 'images/portfolio/origarmy/logo.jpg',
-		title: 'OrigArmy Game (university group project)',
+		title: 'OrigArmy Game (University Group Project)',
 		images: [
 			'images/portfolio/origarmy/scrn2.jpg',
 			'images/portfolio/origarmy/scrn3.jpg',
@@ -163,6 +203,41 @@ export default [
 				icon: 'fab fa-github',
 				text: 'Check the code on GitHub',
 				href: 'https://github.com/vczero98/minesweeper'
+			}
+		]
+	},
+	{
+		name: 'React Snake Game',
+		coverImage: 'images/portfolio/snake/cover.png',
+		title: 'React Snake Game',
+		images: [
+			'images/portfolio/snake/scrn1.png',
+			'images/portfolio/snake/scrn2.png',
+			'images/portfolio/snake/scrn3.png',
+			'images/portfolio/snake/scrn4.png'
+		],
+		sections: [
+			{
+				title: 'The Project',
+				text: 'To practise my React knowledge, I decided to create a JavaScript Snake game built in React.',
+			}
+		],
+		skills: [
+			'React',
+			'HTML',
+			'CSS',
+			'JavaScript'
+		],
+		buttons: [
+			{
+				icon: 'fas fa-globe-americas',
+				text: 'Try the game',
+				href: 'https://vczero98.github.io/react-snake/'
+			},
+			{
+				icon: 'fab fa-github',
+				text: 'Check the code on GitHub',
+				href: 'https://github.com/vczero98/react-snake'
 			}
 		]
 	}

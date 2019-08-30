@@ -1,11 +1,23 @@
 import React from 'react';
 import PortfolioCarousel from './PortfolioCarousel.jsx';
 
+const Youtube = props => (
+	<div className='portfolio-video'>
+		<iframe
+			width="560"
+			height="315"
+			src={props.src}
+			frameBorder="0"
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+			allowFullScreen />
+	</div>
+);
+
 const PortfolioModal = props => {
-	const skills = (
+	const renderSkills = () => (
 		<>
 			<h3>Skills developed</h3>
-			<p>
+			<p className="skills-list">
 				{props.project.skills.map(s => (
 					<React.Fragment key={s}>
 						<span className="portfolio-skill">{s}</span>
@@ -15,6 +27,18 @@ const PortfolioModal = props => {
 			</p>
 		</>
 	);
+
+	const renderSections = () => {
+		if (!props.project.sections) return [];
+		let ctr = 0;
+		return props.project.sections.map(s => (
+			<React.Fragment key={ctr++} >
+				<h3>{s.title}</h3>
+				<p>{s.text}</p>
+				{s.video && <Youtube src={s.video} />}
+			</React.Fragment>
+		));
+	}
 
 	const renderButtons = () => {
 		if (!props.project.buttons) return [];
@@ -43,11 +67,8 @@ const PortfolioModal = props => {
 				</div>
 				<div className="modal-body">
 					{props.project.images && <PortfolioCarousel id={props.id} project={props.project} />}
-					<h3>The Project</h3>
-					<p>SplitTale is another one of my personal projects, solely developed by me. The website is a game, where players can write stories together using, at each turn being able to add up to 5 words to the story. The game uses Facebook for logging in. Users can start their own stories. Check it out at www.splittale.com!</p>
-					<h3>Development</h3>
-					<p>To further practise my Node.js skill I have taught myself, I decided to work on another web application developed with Node.js using the Express framework. To handle the Facebook login, I have used Passport. The front-end is developed using jQuery.</p>
-					{skills}
+					{renderSections()}
+					{renderSkills()}
 				</div>
 				<div className="modal-footer">
 					{renderButtons()}
