@@ -62,18 +62,8 @@ span.menu-icon{
 	width: auto;
 	/*position: absolute;*/
 	/*top: 34%;*/
-	margin: 85px auto 0 auto;
+	margin: 188px auto 0 auto;
 	/*left: 28.5%;*/
-}
-.header-info img {
-/* 	display: none; */
-/* 	border: 1px solid #888; */
-/* 	border-radius: 8px; */
-/*     border-radius: 4px; */
-/*     padding: 5px; */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 280px;
-	margin-bottom: 40px;
 }
 .header-info h2{
 	color:#FFF;
@@ -814,10 +804,6 @@ ul.social-icons li a{
 		width: 72%;
 		left: 14%;
 		top: 36%;
-		margin-top: 0;
-	}
-	.header-info img {
-		height: 250px;
 	}
 	.header {
 		min-height: 584px;
@@ -953,10 +939,6 @@ ul.social-icons li a{
 		width: 72%;
 		left: 14%;
 		top: 37%;
-	}
-	.header-info img {
-		height: 170px;
-		margin-bottom: 30px
 	}
 	.header {
 		min-height: 475px;
