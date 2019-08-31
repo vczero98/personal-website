@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
 						<span />
 					</div>
 					{/* /head-section */}
-					<p className="portfolio-head">To gain experience, I have worked on several projects:</p>
+					<p className="portfolio-head">If you are looking for my <strong>work experience</strong>, check my <a href='https://www.linkedin.com/in/vilmos-czeroczky-45b050160/'><i class="fab fa-linkedin"></i> LinkedIn</a> page.<br/>Here are some of the projects I have worked on:</p>
 					<div className="row"></div>
 
 					{this.renderProjectButtons()}

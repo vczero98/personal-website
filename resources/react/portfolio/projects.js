@@ -2,7 +2,7 @@ export default [
 	{
 		name: 'IoT Smart Horse Vest',
 		coverImage: 'images/portfolio/horse/cover.png',
-		title: 'IoT Smart Horse Vest (University Group Project)',
+		title: 'IoT Smart Horse Vest (University Software Engineering Group Project)',
 		images: [
 			'images/portfolio/horse/scrn1.png',
 			'images/portfolio/horse/scrn2.png',
@@ -31,6 +31,7 @@ export default [
 		],
 		skills: [
 			'Team Management',
+			'Software Engineering',
 			'Internet of Things',
 			'Arduino',
 			'Android Studio',
