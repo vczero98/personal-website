@@ -241,5 +241,32 @@ export default [
 				href: 'https://github.com/vczero98/react-snake'
 			}
 		]
+	},
+	{
+		name: 'Android Restaurant Finder App (University Project)',
+		coverImage: 'images/portfolio/clean-restaurant-finder/cover.png',
+		title: 'Android Restaurant Finder App (University Project)',
+		images: [
+			'images/portfolio/clean-restaurant-finder/scrn1.png',
+			'images/portfolio/clean-restaurant-finder/scrn2.png',
+			'images/portfolio/clean-restaurant-finder/scrn3.png',
+			'images/portfolio/clean-restaurant-finder/scrn4.png',
+			'images/portfolio/clean-restaurant-finder/scrn5.png',
+		],
+		sections: [
+			{
+				title: 'The Project',
+				text: 'Sometimes you\'re out and about and are looking for somewhere to grab a bite to eat. Perhaps you have a sensitive stomach, so, before you head out, you want to know what the Food Standards Agency\'s Food Hygiene ratings are for restaurants. The task was to design and build an Android application that allows a user to find eatery hygiene information using the FSA\'s API.',
+			},
+			{
+				title: 'Development',
+				text: 'I developed this Android application in Java using Android studio. To find an appropriate design for the layout of the application, I have reviewed the designs of several existing applications on the Play Store. One of the tasks was to create an additional feature of our choice, and I decided to use the phone\'s camera to allow the user to take pictures of the restaurants and add them to their pages.',
+			}
+		],
+		skills: [
+			'Android Studio',
+			'Java',
+			'RESTful API'
+		]
 	}
 ];
