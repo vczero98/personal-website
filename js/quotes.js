@@ -2,7 +2,7 @@ var quotes = [
   ["The greater the obstacle, the more glory in overcoming it.", "Moliere"],
   ["Quality is much better than quantity. One home run is much better than two doubles.", "Steve Jobs"],
   ["In real open source, you have the right to control your own destiny.", "Linus Torvalds"],
-  ["The way get started is to quit talking and begin doing.", "Walt Disney"],
+  ["The way to get started is to quit talking and begin doing.", "Walt Disney"],
   ["Design is not just what it looks like and feels like. Design is how it works.", "Steve Jobs"],
   ["The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.", "Winston Churchill"],
   ["You learn more from failure than from success. Don't let it stop you. Failure builds character.", "Unknown"],
