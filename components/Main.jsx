@@ -4,11 +4,11 @@ import Header from "./Header";
 import Portfolio from "./portfolio/Portfolio";
 import Blog from "./Blog";
 import Skills from "./Skills";
-import Quotes from "./Quotes";
 import Education from "./Education";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import $ from "jquery";
+import TodaysQuote from "./todays-quote/TodaysQuote";
 
 const Main = () => {
   /** Legacy scripts */
@@ -56,12 +56,11 @@ const Main = () => {
       <Portfolio />
       <Blog />
       <Skills />
-      <Quotes />
+      <TodaysQuote />
       <Education />
       <Contact />
       <Footer />
       {/* <script type="text/javascript" src="js/progressbar.min.js"></script>
-      <script type="text/javascript" src="js/quotes.js"></script>
       <script type="text/javascript" src="js/animations.js"></script> */}
       {/* <!--
 Author: W3layouts

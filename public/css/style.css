@@ -462,15 +462,6 @@ a.more:hover{
 	width: 100%;
 	text-align: center;
 }
-.carousel .item {
-	background: #282f34;
-	height: 400px !important;
-}
-.carousel img {
-	height: 100% !important;
-	width: auto !important;
-	margin: auto;
-}
 .about-grid{
 	position:relative;
 }
@@ -669,7 +660,7 @@ ul.social-icons li a{
 	background:#a1774b;
 }
 .contact-grids{
-	margin:4em 0 1em;
+	margin:1em 0 1em;
 	text-align: center;
 }
 /*-- footer --*/
@@ -788,7 +779,7 @@ ul.social-icons li a{
 		margin-top:2em;
 	}
 	.contact-grids {
-		margin: 2em 0 1em;
+		margin: 1em 0 1em;
 	}
 	.contact {
 		padding: 3em 0 2em 0;
@@ -834,7 +825,7 @@ ul.social-icons li a{
 		margin-top:2em;
 	}
 	.contact-grids {
-		margin: 2em 0 1em;
+		margin: 1em 0 1em;
 	}
 	.contact {
 		padding: 3em 0 2em 0;
@@ -969,7 +960,7 @@ ul.social-icons li a{
 		margin-top:2em;
 	}
 	.contact-grids {
-		margin: 2em 0 1em;
+		margin: 1em 0 1em;
 	}
 	.contact {
 		padding: 3em 0 2em 0;
@@ -1093,7 +1084,7 @@ ul.social-icons li a{
 		margin-top:2em;
 	}
 	.contact-grids {
-		margin: 2em 0 1em;
+		margin: 1em 0 1em;
 	}
 	.contact {
 		padding: 2em 0 1em 0;

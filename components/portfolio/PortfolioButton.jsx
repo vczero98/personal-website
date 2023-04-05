@@ -1,8 +1,9 @@
 import React from "react";
+import { Col } from "react-bootstrap";
 
 const PortifolioButton = ({ image, name, onClick }) => {
   return (
-    <div className="col-md-6 col-lg-4">
+    <Col md={6} lg={4}>
       <a {...{ onClick }}>
         <div className="portfolio-item">
           <img src={image} alt="Project photo" />
@@ -14,7 +15,7 @@ const PortifolioButton = ({ image, name, onClick }) => {
           </div>
         </div>
       </a>
-    </div>
+    </Col>
   );
 };
 

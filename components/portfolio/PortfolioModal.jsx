@@ -1,6 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import PortfolioCarousel from "./PortfolioCarousel.jsx";
 import { Button, Modal } from "react-bootstrap";
+import styled from "styled-components";
+
+const CarouselContainer = styled.div`
+  margin-bottom: 20px;
+`;
 
 const Youtube = (props) => (
   <div className="portfolio-video">
@@ -58,19 +63,17 @@ const PortfolioModal = ({ id, project, handleClose, show }) => {
     ));
   };
 
-  useEffect(() => {
-    if (show) {
-      console.log("WE ARE SHOWN!");
-    }
-  }, [show]);
-
   return (
-    <Modal show={show} onHide={handleClose}>
+    <Modal size={"lg"} show={show} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title>{project.title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {project.images && <PortfolioCarousel {...{ id, project }} />}
+        {project.images && (
+          <CarouselContainer>
+            <PortfolioCarousel {...{ id, project }} />
+          </CarouselContainer>
+        )}
         {renderSections()}
         {renderSkills()}
       </Modal.Body>

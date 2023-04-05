@@ -14,7 +14,7 @@ const Contact = () => (
         {/* contact-grids */}
         <div className="contact-grids">
           <div className="col-md-4 contact-left">
-            <h4>Address</h4>
+            {/* <h4>Address</h4> */}
             <ul className="address">
               <li>
                 <strong>Email:</strong>

@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import PortfolioButton from "./PortfolioButton.jsx";
 import projects from "./projects";
 import PortfolioModals from "./PortfolioModal.jsx";
+import { Row } from "react-bootstrap";
 
 const Portfolio = () => {
   const [openProject, setOpenProject] = useState(null);
@@ -51,9 +52,9 @@ const Portfolio = () => {
           <br />
           Here are some of my <strong>personal projects</strong>:
         </p>
-        <div className="row"></div>
+        {/* <div className="row"></div> */}
 
-        {projectButtons}
+        <Row>{projectButtons}</Row>
         {projectModals}
       </div>
     </div>
