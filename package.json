@@ -1,35 +1,16 @@
 {
-  "name": "personal-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "development": "webpack --mode development",
-    "dev": "npm run development",
-    "watch": "webpack --mode development --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vczero98/personal-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vczero98/personal-website/issues"
-  },
-  "homepage": "https://github.com/vczero98/personal-website#readme",
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0"
   }
 }
